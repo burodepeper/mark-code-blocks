@@ -22,7 +22,15 @@ Supports:
 
 ## Configure your syntax-theme or custom stylesheet
 
-TODO
+```less
+atom-text-editor {
+  .line {
+    &.embedded-code {
+      background: fade(SOME_AWESOME_COLOR, 10%);
+    }
+  }
+}
+```
 
 ## Test
 
