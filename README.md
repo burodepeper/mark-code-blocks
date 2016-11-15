@@ -18,6 +18,7 @@ Supports:
 - [ ] Support `language-gfm` and `language-pfm`
 - [ ] Add math blocks from `language-markdown`
 - [ ] Add tables from `language-markdown`
+- [ ] Allow custom blocks for users
 
 ## Configure your syntax-theme or custom stylesheet
 
