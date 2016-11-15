@@ -1,3 +1,7 @@
 {
-  "esversion": 6
+  "esversion": 6,
+  "globals": {
+    "atom": false
+  },
+  "node": true
 }
