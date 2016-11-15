@@ -1,0 +1,19 @@
+{
+  "name": "mark-embedded-code",
+  "version": "0.0.0",
+  "description": "(IN DEVELOPMENT) Marks lines that contain embedded code so they can be styled as blocks",
+  "keywords": [
+    "embedded code",
+    "syntax theme"
+  ],
+  "repository": "https://github.com/burodepeper/mark-embedded-code",
+  "bugs": {
+    "url": "https://github.com/burodepeper/mark-embedded-code/issues"
+  },
+  "main": "lib/main.js",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "atom": "*"
+  }
+}
