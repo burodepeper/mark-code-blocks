@@ -14,7 +14,7 @@ Supports:
 
 - [ ] Add default styles for a dark or light environment if they don't exist in the users' syntax-theme
 - [x] Also mark the line number
-- [ ] Add rule.name as additional className(s)
+- [x] Add rule.name as additional className(s)
 - [ ] Support `language-gfm` and `language-pfm`
 - [x] Add math blocks from `language-markdown`
 - [x] Add tables from `language-markdown`
@@ -29,6 +29,10 @@ atom-text-editor {
   .line-number {
     &.code-block {
       background: fade(SOME_AWESOME_COLOR, 10%);
+    }
+
+    &.math-block {
+      background: fade(ANOTHER_COLOR, 10%);
     }
   }
 }
