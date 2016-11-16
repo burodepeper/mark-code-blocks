@@ -13,19 +13,21 @@ Supports:
 ## TODO
 
 - [ ] Add default styles for a dark or light environment if they don't exist in the users' syntax-theme
-- [ ] Also mark the line number
+- [x] Also mark the line number
 - [ ] Add rule.name as additional className
 - [ ] Support `language-gfm` and `language-pfm`
 - [ ] Add math blocks from `language-markdown`
 - [ ] Add tables from `language-markdown`
 - [ ] Allow custom blocks for users
+- [ ] Opening `<script>` of embedded Javascript isn't detected
 
 ## Configure your syntax-theme or custom stylesheet
 
 ```less
 atom-text-editor {
-  .line {
-    &.embedded-code {
+  .line,
+  .line-number {
+    &.code-block {
       background: fade(SOME_AWESOME_COLOR, 10%);
     }
   }
