@@ -6,7 +6,7 @@ A package for Atom that marks lines that contain embedded code so they can be st
 
 Supports:
 
-- code-blocks in `language-markdown`
+- code-blocks, tables and math-blocks in `language-markdown`
 - `<style>`-blocks in `language-html`
 - `<script>`-blocks in `language-html`
 
@@ -14,10 +14,10 @@ Supports:
 
 - [ ] Add default styles for a dark or light environment if they don't exist in the users' syntax-theme
 - [x] Also mark the line number
-- [ ] Add rule.name as additional className
+- [ ] Add rule.name as additional className(s)
 - [ ] Support `language-gfm` and `language-pfm`
-- [ ] Add math blocks from `language-markdown`
-- [ ] Add tables from `language-markdown`
+- [x] Add math blocks from `language-markdown`
+- [x] Add tables from `language-markdown`
 - [ ] Allow custom blocks for users
 - [ ] Opening `<script>` of embedded Javascript isn't detected
 
@@ -46,3 +46,9 @@ function test () {
 ```
 I am another code block
 ```
+
+| I'm | sort of | a table |
+
+$$
+f \in \{0,1\}^*\to\{0,1\}^*
+$$
