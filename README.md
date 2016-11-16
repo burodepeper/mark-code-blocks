@@ -47,7 +47,8 @@ function test () {
 I am another code block
 ```
 
-| I'm | sort of | a table |
+| I'm    | sort of  | a table          |
+| with a | separate | background-color |
 
 $$
 f \in \{0,1\}^*\to\{0,1\}^*
