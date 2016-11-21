@@ -1,4 +1,4 @@
-# mark-embedded-code
+# mark-code-blocks
 
 **Under construction: do not use (yet)**
 
@@ -18,7 +18,8 @@ Supports:
 - [ ] Support `language-gfm` and `language-pfm`
 - [x] Add math blocks from `language-markdown`
 - [x] Add tables from `language-markdown`
-- [ ] Allow custom blocks for users
+- [ ] Allow custom blocks for users (by extending a scopeName in `config.cson`)
+- [ ] Allow grammars to define their code-blocks (via the grammar file)
 - [ ] Opening `<script>` of embedded Javascript isn't detected
 
 ## Configure your syntax-theme or custom stylesheet
