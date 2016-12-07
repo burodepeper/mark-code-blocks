@@ -2,6 +2,8 @@
 
 **Under construction: do not use (yet)**
 
+Expected release in sync with Atom 1.13
+
 A package for Atom that marks lines that contain embedded code so they can be styled as blocks instead of inlines
 
 Supports:
