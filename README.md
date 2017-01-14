@@ -1,26 +1,17 @@
 # mark-code-blocks
 
-**Under construction: do not use (yet)**
+A package for [Atom](https://atom.io) that marks lines that contain embedded code so they can be styled as blocks instead of inlines. Currently detects:
 
-A package for Atom that marks lines that contain embedded code so they can be styled as blocks instead of inlines
-
-Supports:
-
-- code-blocks, tables and math-blocks in `language-markdown`
-- `<style>`-blocks in `language-html`
-- `<script>`-blocks in `language-html`
+- **language-markdown**: code-blocks, tables and math-blocks
+- **language-html**: `<style>`- and `<script>`-blocks
 
 ## TODO
 
 - [ ] Add default styles for a dark or light environment if they don't exist in the users' syntax-theme
-- [x] Also mark the line number
-- [x] Add rule.name as additional className(s)
-- [ ] Support `language-gfm` and `language-pfm`
-- [x] Add math blocks from `language-markdown`
-- [x] Add tables from `language-markdown`
+- [ ] Add Markdown support `language-gfm` and `language-pfm`
 - [ ] Allow custom blocks for users (by extending a scopeName in `config.cson`)
 - [ ] Allow grammars to define their code-blocks (via the grammar file)
-- [ ] Opening `<script>` of embedded Javascript isn't detected
+- [ ] Bug: Opening `<script>` of embedded Javascript isn't detected
 
 ## Configure your syntax-theme or custom stylesheet
 
@@ -39,7 +30,7 @@ atom-text-editor {
 }
 ```
 
-## Test
+## Tests/examples
 
 ```js
 var "false" = true;
