@@ -1,6 +1,6 @@
 {
   "name": "mark-code-blocks",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Marks lines that contain embedded code so they can be styled as blocks",
   "keywords": [
     "embedded code",
